@@ -5,188 +5,228 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="preload" href="/css/normalize.css" as="style">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-  <link rel="preload" href="/css/style.css" as="style">
-  <link rel="stylesheet" href="/css/style.css">
-
-  <title>Portafolio de Trabajo</title>
+  <link rel="stylesheet" href="build/css/app.css">
+  <title>Bienes Raíces</title>
 </head>
 
 <body>
-  <header class="header" >
-    <div class="contenedor">
+  <header class="header inicio">
+    <div class="contenedor contenido-header">
       <div class="barra">
+        <a class="logo"href="index.html">
+          <img src="build/img/logo.svg" alt="Logotipo de bienes raices">
+        </a>
+        <div class="mobile-menu">
+          <img src="build/img/barras.svg" alt="icono-menu responsive">
+        </div>
+        <div class="derecha">
+          <img src="build/img/dark-mode.svg"class="dark-mode-boton" alt="">
+          <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncio</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
+        </div>
 
-        <a href="#" class="link"><h1 class="texto-logo">Desarrollador </h1><span>de Software</span></a>
-
-        <nav class="navegacion">
-          <a href="#portafolio" class="link">Portafolio</a>
-          <a href="#skills" class="link">Herramientas</a>
-          <a href="#contacto" class="link">Contacto</a>
-        </nav>
-      </div>
-
+      </div><!-- NOTE: div barra -->
+      <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
     </div>
   </header>
-  <div class="fondo" >
-    <div class="texto-principal">
-      <h2 class="titulo">Rodrigo Lugo Villeda
-          <span class="ing">Ing. en Tecnologías de la Información</span></h2>
+  <main class="contenedor seccion">
+    <h2>Mas Sobre Nosotros</h2>
+    <div class="iconos-nosotros">
+      <div class="icono">
+        <img src="build/img/icono1.svg" alt="icono Precio" loading="lazy">
+        <h3>Precio</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam.</p>
+      </div>
+      <div class="icono">
+        <img src="build/img/icono2.svg" alt="icono Tiempo" loading="lazy">
+        <h3>A Tiempo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam.</p>
+      </div>
+      <div class="icono">
+        <img src="build/img/icono3.svg" alt="icono de seguridad" loading="lazy">
+        <h3>Seguridad</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam.</p>
+      </div>
     </div>
-  </div>
-  <main class="contenedor contenedor-proyectos">
-    <h2 id="portafolio">Portafolio</h2>
-    <hr class="section-hr">
-    <div class="proyectos">
-      <div class="card">
-        <div class="image-card" style="background-image: url(./img/blog.png)" alt="Blog de cafe">
-
-          <div class="visualizar ">
-            <a href="https://github.com/RockdrigoLv/blog-decafe" class="invert" target="_blank"><img src="./img/github.png" alt="github icon" class="icon-visualizar">
-
-            </a>
-            <a href="https://blodecafe.netlify.app/" class="invert" target="_blank">
-              <img src="./img/web.png" alt="icono de visitar sitio" class="icon-visualizar">
-
-            </a>
-          </div>
-        </div>
-
-
-      </div>
-      <div class="card">
-        <div class="image-card" style="background-image: url(./img/oee.png)" alt="Oficina de enlace">
-          <div class="visualizar ">
-            <img src="./img/video.png" alt="icono de video" class="icon-visualizar" id="video">
-
-          </div>
-        </div>
-
-      </div>
-      <div class="card">
-
-        <div class="image-card" style="background-image: url(./img/estetica.png)" alt="Barberia-Estetica">
-          <div class="visualizar ">
-            <a href="https://github.com/RockdrigoLv/barberia-estetica" class="invert" target="_blank">
-              <img src="./img/github.png" alt="github icon" class="icon-visualizar ">
-
-            </a>
-            <a href="https://barberia-estetica.netlify.app/" class="invert" target="_blank">
-              <img src="./img/web.png" alt="icono de visitar sitio" class="icon-visualizar">
-
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <div class="card">
-        <div class="image-card" style="background-image: url(./img/festival.png)" alt="festival de musica">
-          <div class="visualizar ">
-            <a href="https://github.com/RockdrigoLv/festival-musica" target="_blank">
-              <img src="./img/github.png" alt="github icon" class="icon-visualizar">
-
-            </a>
-            <a href="https://festival-music.netlify.app/" target="_blank">
-              <img src="./img/web.png" alt="icono de visitar sitio" class="icon-visualizar">
-
-            </a>
-          </div>
-        </div>
-        </div>
-        <div class="card">
-          <div class="image-card" style="background-image: url(./img/smallBR.png)" alt="bienes raices">
-            <div class="visualizar ">
-              <a href="https://github.com/RockdrigoLv/bienes-raices"  class="invert" target="_blank">
-                <img src="./img/github.png" alt="github icon" class="icon-visualizar">
-
-              </a>
-              <a href="https://modest-thompson-001266.netlify.app/nosotros.html"  class="invert" target="_blank">
-                <img src="./img/web.png" alt="icono de visitar sitio" class="icon-visualizar">
-
-              </a>
-            </div>
-          </div>
-          </div>
-
-
-
-
-    </div>
-
   </main>
-  <section class="contenedor contenedor-skills">
-    <h2 id="skills">Skillset</h2>
-    <hr class="section-hr">
-    <div class="skills">
-      <div class="">
-        <img src="./img/html.png" alt="HTML5 logo" class="skills-image-5">
-      </div>
-      <div class="">
-        <img src="./img/css.png" alt="CSS3 logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/javascript.png" alt="javascript logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/jquery.png" alt="jquery logo" class="skills-image-jq">
-      </div>
-      <div class="">
-        <img src="./img/ajax.png" alt="ajax logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/sass.png" alt="sass logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/nodejs.png" alt="Node js logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/gulp.png" alt="gulp logo" class="skills-image-gulp">
-      </div>
-      <div class="">
-        <img src="./img/mysql.png" alt="mysql logo" class="skills-image">
-      </div>
-      <div class="">
-        <img src="./img/php.png" alt="gulp logo" class="skills-image">
-      </div>
-
-
-
-    </div>
-
-    </div>
-
-  </section>
   <section class="contenedor">
-    <div class="contacto">
-      <h2 id="contacto">Contactame</h2>
-      <hr class="section-hr">
-      <div class="perfil-contacto">
-        <img src="./img/picture-profile.JPG" alt="foto de perfil" class="foto-perfil">
-        <div class="texto-contacto">
-          <p class="parrafo-contacto">Puedes contactarme por los siguientes medios:</p>
-          <div class="medios-contacto">
-            <img src="./img/linkedin.png" alt="logo linkedin" class="img-contacto">
-            <a class="link-contacto" href="https://www.linkedin.com/in/rodrigo-lugo-villeda/" target="_blank">Rodrigo Lugo Villeda</a>
-          </div>
-          <div class="medios-contacto">
-            <img src="./img/gmail.png" alt="logo gmail" class="img-contacto">
-            <p class="parrafo-contacto">rod.lv.ft@gmail.com</p>
-          </div>
+    <h2>Casas y Depas en venta</h2>
+    <div class="contenedor-anuncios">
+      <div class="anuncio">
+        <picture>
+          <source srcset="build/img/anuncio1.webp" type="image/webp">
+          <source srcset="build/img/anuncio1.jpg" type="image/jpeg">
+          <img loading="lazy" src="build/img/anuncio1.jpg" alt="anuncion">
+        </picture>
+        <div class="contenido-anuncio">
+          <h3>Casa de lujo en el lago</h3>
+          <p>Casa enle lago coon excelente vista, acabados de lujo a un excelente precio</p>
+          <p class="precio">$3,000,000</p>
+          <ul class="iconos-caracteristicas">
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_wc.svg" alt="icono wc">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+              <p>4</p>
+            </li>
+          </ul>
+          <a href="anuncio.html" class=" boton-amarillo">Ver Propiedad</a>
+        </div><!-- NOTE: contenido-anuncio -->
+      </div><!-- NOTE: anuncio -->
 
-        </div>
-      </div>
+      <div class="anuncio">
+        <picture>
+          <source srcset="build/img/anuncio2.webp" type="image/webp">
+          <source srcset="build/img/anuncio2.jpg" type="image/jpeg">
+          <img loading="lazy" src="build/img/anuncio2.jpg" alt="anuncion">
+        </picture>
+        <div class="contenido-anuncio">
+          <h3>Casa terminados de lujo</h3>
+          <p>Casa con diseño moderno, asi como tecnología inteligente y amueblada</p>
+          <p class="precio">$2,000,000</p>
+          <ul class="iconos-caracteristicas">
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_wc.svg" alt="icono wc">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+              <p>4</p>
+            </li>
+          </ul>
+          <a href="anuncio.html" class=" boton-amarillo">Ver Propiedad</a>
+        </div><!-- NOTE: contenido anuncio -->
+      </div><!-- NOTE: anuncio -->
 
+      <div class="anuncio">
+        <picture>
+          <source srcset="build/img/anuncio3.webp" type="image/webp">
+          <source srcset="build/img/anuncio3.jpg" type="image/jpeg">
+          <img loading="lazy" src="build/img/anuncio3.jpg" alt="anuncion">
+        </picture>
+        <div class="contenido-anuncio">
+          <h3>Casa con alberca</h3>
+          <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
+          <p class="precio">$3,000,000</p>
+          <ul class="iconos-caracteristicas">
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_wc.svg" alt="icono wc">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+              <p>3</p>
+            </li>
+            <li>
+              <img loading="lazy" class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+              <p>4</p>
+            </li>
+          </ul>
+          <a href="anuncio.html" class=" boton-amarillo">Ver Propiedad</a>
+        </div><!-- NOTE: contenido anuncio -->
+      </div><!-- NOTE: anuncio -->
+
+    </div><!-- NOTE: contenedor-anuncio -->
+    <div class="alinear-derecha">
+      <a href="anuncios.html" class="boton-verde">Ver Todas</a>
 
     </div>
 
   </section>
-  <footer class="footer" id="footer">
-    <p> Developed and designed by Rodrigo LV. ©2021. All rights reserved.</p>
+  <section class="imagen-contacto seccion">
+    <h2>Encuentra la casa de tus sueños</h2>
+    <p>Llena el formulario de contacto y un asesor se pondra en contacto contigo a la brevedad</p>
+    <a href="contacto.html" class="boton-amarillo-inlineblock">Contactános</a>
+  </section>
+  <div class="contenedor seccion seccion-inferior">
+    <section class="blog">
+      <h3>Nuestro Blog</h3>
+      <article class="entrada-blog">
+        <div class="imagen">
+          <picture>
+            <source src="build/img/blog1.webp" type="image/webp">
+            <source src="build/img/blog1.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/blog1.jpg" alt="Texto entrada blog">
+          </picture>
+        </div>
+        <div class="texto-entrada">
+          <a href="#">
+            <h4>Terraza en el techo de tu casa</h4>
+            <p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+            <p>Consejos para cosntruir una terraza en el techo de tu casa con los mejores materiales
+              y ahorrando materiales.
+            </p>
+          </a>
+        </div>
+      </article>
+      <article class="entrada-blog">
+        <div class="imagen">
+          <picture>
+            <source src="build/img/blog1.webp" type="image/webp">
+            <source src="build/img/blog1.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/blog2.jpg" alt="Texto entrada blog">
+          </picture>
+        </div>
+        <div class="texto-entrada">
+          <a href="#">
+            <h4>Guia para la decoración de tu hogar</h4>
+            <p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+            <p>Maximiza el espacio en tu hogar con esta guía, aprende a combinar muebles y colores para daarle
+              vida a tu espacio.
+            </p>
+          </a>
+        </div>
+
+
+      </article>
+    </section>
+    <section>
+      <h3>Testimoniales</h3>
+      <div class="testimonial">
+        <blockquote>
+          El personal se comportó de una excelente  forma, muy buena atención
+          y la casa que me ofrecieron cumple con todas mis expectativas.
+        </blockquote>
+        <p>- Rodrigo Lugo</p>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer seccion">
+    <div class="contenedor contenedor-footer">
+      <nav class="navegacion">
+        <a href="nosotros.html">Nosotros</a>
+        <a href="anuncios.html">Anuncio</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+    </div>
+    <p class="copyright">Todos los derechos reservados 2021 &copy</p>
+
   </footer>
-  <script type="text/javascript" src="./js/app.js">
+
+  <script src="build/js/bundle.min.js">
 
   </script>
 </body>
